@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "holiday-reservation-saga"
+version = "0.1.0"
+description = ""
+authors = ["Davide Ria <d.ria@frankhood.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+diator = "^0.1.2"
+Flask = "^3.0.3"
+pymongo = "^4.8.0"
+dependency-injector = "^4.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
